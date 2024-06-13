@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+   
+  
+  }
+  
+  
+  .container {
+    max-width: 900px;
+    z-index: 1;
+    padding: 5%;
+    background-color: rgb(223, 223, 240);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(199, 225, 4, 0.1);
+    
+   
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #09baeb;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: hwb(210 11% 88% / 0.116);
+}
+
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  
